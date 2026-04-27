@@ -1,17 +1,17 @@
-```
-# Godot-specific ignores
-*.import
-.export
-.rpk
+# Godot 4+ specific ignores
 .godot/
+.nomedia
 
-# Dependencies
-res://addons/
-addons/
+# Godot-specific ignores
+.import/
+export.cfg
+export_credentials.cfg
+*.tmp
 
-# Build artifacts
-export_presets.cfg
+# Imported translations (automatically generated from CSV files)
+*.translation
 
-# Logs
-*.log
-```
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
